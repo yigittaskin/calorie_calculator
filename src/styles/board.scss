@@ -29,8 +29,25 @@
 
 button {
     background-color: #5A4C98 !important;
+
     &:hover {
         background-color: #4400ff !important;
         transition: .4s;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-md-5:nth-child(2n) {
+        margin-top: 60px !important;
+        float: none !important;
+    }
+
+    .rightPanel {
+        background-color: white !important;
+        margin-left: 0 !important;
+        margin-bottom: 30px;
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 24px;
+        padding: 10px;
     }
 }

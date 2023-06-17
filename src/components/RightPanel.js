@@ -14,6 +14,11 @@ const RightPanel = (props) => {
     const hesapla = (e) => {
         e.preventDefault()
 
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
         if (cins === 'Erkek') {
             // [10*Kilogram(kg) + 6.25*Boy (cm) – 5*Yaş + 5] x Hareket
             if (hedef === 'Zayiflamak') {
@@ -61,7 +66,7 @@ const RightPanel = (props) => {
 
     return (
         <div
-            className='container mt-4 ml-4'>
+            className='container mt-4 ml-4 rightPanel'>
             <div
                 className='row'>
                 <div
