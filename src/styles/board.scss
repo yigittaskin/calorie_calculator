@@ -1,0 +1,36 @@
+.board {
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 24px;
+}
+
+.caloriImg {
+    height: 75vh;
+    background-image: url('../images/caloriImg.svg');
+    background-size: cover;
+    border-radius: 24px;
+
+    .purpleDiv {
+        height: 75vh;
+        width: 100%;
+        background: rgba(90, 76, 152, 0.7);
+        border-radius: 24px;
+    }
+}
+
+.formBg {
+    background: rgba(159, 105, 142, 0.4);
+    border-radius: 12px;
+}
+
+button {
+    background-color: #5A4C98 !important;
+    &:hover {
+        background-color: #4400ff !important;
+        transition: .4s;
+    }
+}
